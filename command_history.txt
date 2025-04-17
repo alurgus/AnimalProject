@@ -1,0 +1,324 @@
+    1  sudo apt update
+    2  sudo apt install openssh-server
+    3  sudo apt install mc
+    4  systemctl status ssh
+    5  sudo ss -ntlp
+    6  ip a
+    7  systemctl status ssh
+    8  sudo apt install
+    9  openssh-server
+   10  sudo apt update
+   11  sudo apt install openssh-server
+   12  systemctl status ssh
+   13  systemctl daemon-re
+   14  systemctl daemon-reload
+   15  systemctl status ssh
+   16  sudo systemctl daemon-reload
+   17  systemctl status ssh
+   18  sudj systemctl enable --now ssh
+   19  sudo systemctl enable --now ssh
+   20  systemctl status ssh
+   21  clear
+   22  ip a
+   23  sudo apt update
+   24  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   25  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-gpg
+   26  echo "deb [signed-by=/usr/share/keyrings/docker-archive-gpgeececurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/do
+   27  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   28  sudo apt update
+   29  q
+   30  exit
+   31  stop
+   32  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   33  echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   34  sudo apt update
+   35  sudo apt install docker-ce
+   36  sudo usermod -aG docker $USER
+   37  docker images
+   38  newgrp docker
+   39  sudo docker images
+   40  sudo newgrp docker
+   41  nano app.py
+   42  cd sem4
+   43  cd
+   44  cd app.py
+   45  ls
+   46  ll
+   47  rm app.py
+   48  ll
+   49  cd sem4
+   50  nano app.py
+   51  ll
+   52  nano Dockerfile
+   53  clear
+   54  docker built -t my_d_image
+   55  docker built -t my-d-image .
+   56  docker build -t my-dock-image .
+   57  docker build -t my-image .
+   58  nano app.py
+   59  nano Dockerfile
+   60  docker build -t my-dock-image .
+   61  docker run -it my-dock-image
+   62  docker images
+   63  docker stop
+   64  docker stop --help
+   65  вщслук зы
+   66  docker ps
+   67  docker ps a
+   68  вщслук зы -ф
+   69  docker ps -a
+   70  mkdir sem4
+   71  cd sem4
+   72  nano app.py
+   73  systemctl status ssh
+   74  ip a
+   75  git clone https://github.com/digininja/DVWA.git dvwa-docker
+   76  cd dvwa-docker
+   77  pwd
+   78  mkdir Newone
+   79  cd Newone
+   80  mkdir -p src/main/java/models
+   81  mkdir -p src/main/java/services
+   82  mkdir -p src/main/java/ui
+   83  mkdir -p src/main/java/utils
+   84  mkdir -p src/main/java/resources
+   85  touch src/main/java/models/Animal.java
+   86  touch src/main/java/services/Animaldatabase.java
+   87  touch src/main/java/ui/Menu.java
+   88  touch src/main/java/utils/DatabaseConnection.java
+   89  touch src/main/resources/application.properties
+   90  touch .gitignore
+   91  touch README.md
+   92  touch pom.xml
+   93  sudo apt update
+   94  sudo apt install tree
+   95  pwd
+   96  tree
+   97  find .
+   98  tree
+   99  pwd
+  100  ./
+  101  /
+  102  ~
+  103  sudo apt update
+  104  apt list --upgradable
+  105  sudo update
+  106  sudo apt update
+  107  sudo apt update && sudo apt upgrate
+  108  sudo apt upgrade
+  109  pwd
+  110  sudo apt-get install gnome-tweaks
+  111  ll
+  112  ls
+  113  gnome-tweaks
+  114  apt list --installed
+  115  pwd
+  116  cat > HomeAnimals.txt
+  117  cat > PackAnimals.txt
+  118  cat HomeAnimals.txt PackAnimals.txt > Animals.txt
+  119  cat Animals.txt
+  120  cat HomeAnimals.txt
+  121  sed -i '3d' HomeAnimals.txt
+  122  cat HomeAnimals.txt
+  123  cat > HomeAnimals.txt
+  124  cat HomeAnimals.txt
+  125  cat > HomeAnimals.txt
+  126  cat HomeAnimals.txt
+  127  cat HomeAnimals.txt PackAnimals.txt > Animals.txt
+  128  cat Animals.txt
+  129  mv Animals.txt HumanFriends.txt
+  130  cat Animals.txt
+  131  cat HumanFriends.txt
+  132  git init
+  133  git add .
+  134  ll
+  135  git add .
+  136  git status
+  137  git rm --cached
+  138  git reset
+  139  git status
+  140  pwd
+  141  ll
+  142  /Project
+  143  cd Project
+  144  mkdir Project
+  145  pwd
+  146  cd Project
+  147  pwd
+  148  cd ag
+  149  /ag
+  150  ./ag
+  151  cd ..
+  152  pwd
+  153  mv HumanFriends.txt HomeAnimals.txt PackAnimals.txt Project/
+  154  ll
+  155  cd Project
+  156  ll
+  157  git init
+  158  git status
+  159  git add .
+  160  git status
+  161  git remote add origin https://github.com/alurgus/Animals.git
+  162  git status
+  163  git commit -m "txt-files created"
+  164  git config --global user.email "alurgus@mail.ru"
+  165  git config --global user.name "alurg"
+  166  git status
+  167  git commit -m "txt-files created"
+  168  git status
+  169  git push -u origin master
+  170  git remote add origin https://github.com/alurgus/Animals.git
+  171  git push -u origin main
+  172  git push -u origin master
+  173  git push -u origin main
+  174  git remote -v
+  175  git push -u origin master
+  176  git branch
+  177  git push -u origin master
+  178  pwd
+  179  ll
+  180  cd project
+  181  cd Project
+  182  ll
+  183  cat HumanFriends.txt
+  184  sudo apt update
+  185  sudo apt install virtualbox-guest-utils
+  186  sudo reboot
+  187  sudo apt update
+  188  sudo apt install build-essential dkms linux-headers-$(uname -r)
+  189  cd /media/$USER/VBox_GAs_*/
+  190  sudo ./VBoxLinuxAdditions.run
+  191  sudo reboot
+  192  git status
+  193  cd Project
+  194  git status
+  195  git add .
+  196  git status
+  197  ll
+  198  git add HomeAnimals.txt HumanFriends.txt PackAnimals.txt
+  199  git status
+  200  git init
+  201  git status
+  202  git add HomeAnimals.txt HumanFriends.txt PackAnimals.txt
+  203  git status
+  204  git remote -v
+  205  git add .
+  206  git status
+  207  ll
+  208  git add HomeAnimals.txt
+  209  git status
+  210  cat  HomePets.txt
+  211  cat >> HomePets.txt
+  212  ll
+  213  git add HomePets.txt
+  214  git status
+  215  git commit -m "test_commit"
+  216  git push -u origin master
+  217  git status
+  218  git reset --hard HEAD~1
+  219  git status
+  220  git push origin master --force
+  221  git config --global credential.helper store
+  222  cat HumanFrieds.txt
+  223  cat HumanFriends.txt
+  224  ll
+  225  rm HumanFriends.txt
+  226  ll
+  227  git add .
+  228  git status
+  229  git reset --hard
+  230  ll
+  231  rm HumanFriends.txt
+  232  ll
+  233  cat HomeAnimals.txt
+  234  nano HomeAnimals.txt
+  235  cat HomeAnimals.txt
+  236  nano PackAnimals.txt
+  237  cat PackAnimals.txt
+  238  ll
+  239  git add .
+  240  git status
+  241  git commit -m " first_stage"
+  242  git status
+  243  git remote -v
+  244  git add remote origin https://github.com/alurgus/AnimalProject.git
+  245  git remote add  origin https://github.com/alurgus/AnimalProject.git
+  246  git remote set-url origin https://github.com/alurgus/AnimalProject.git
+  247  git remote -v
+  248  git push -u origin master
+  249  cat > AnyAnimals
+  250  cat AnyAnimal
+  251  cat AnyAnimals
+  252  rm AnyAnimals
+  253  ll
+  254  git rm HomeAnimals.txt
+  255  git status
+  256  git commit 
+  257  git status
+  258  git commit -m''
+  259  git commit 
+  260  git commit -m "del1"
+  261  git push -u origin master
+  262  ll
+  263  rm PackAnimals.txt
+  264  git rm PackAnimals.txt
+  265  git commit -m "removing false file"
+  266  git push -u origin master
+  267  sudo apt install git-filter-repo
+  268  git filter-repo --path PackAnimals.txt --invert-paths
+  269  ll
+  270  cat HomeAnimals
+  271  cat > HomeAnimals
+  272  cat > PackAnimals
+  273  ll
+  274  git add .
+  275  git status
+  276  git commit -m "animal types"
+  277  git push -u origin master
+  278  cat HomeAnimals PackAnimals > Animals
+  279  cat Animals
+  280  git checkout -b animals/united
+  281  git add .
+  282  git status
+  283  git commit -m "animals united onto one table"
+  284  git push -u origin animals/united
+  285  ll
+  286  mv Animals HumanFriends
+  287  ls-l
+  288  ls -l
+  289  mkdir Animals
+  290  ls -l
+  291  mv HumanFriends Animals/
+  292  ls -l
+  293  ls Animals
+  294  git branch
+  295  git checkout -b animals
+  296  git checkout -b animals/new_dir
+  297  git add .
+  298  git status
+  299  git commit -m "animals moved to the new dir"
+  300  git push -u origin animals/new_dir
+  301  sudo apt update
+  302  sudo apt install wget gnupg
+  303  wget -c https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+  304  sudo gpg --dearmor -o /usr/share/keyrings/mysql-archive-keyring.gpg RPM-GPG-KEY-mysql-2022
+  305  echo "deb [signed-by=/usr/share/keyrings/mysql-archive-keyring.gpg] http://repo.mysql.com/apt/ubuntu/ $(lsb_release -cs) mysql-8.0" | sudo tee /etc/apt/sources.list.d/mysql.list
+  306  sudo apt update
+  307  sudo apt install mysql-client
+  308  mysql --version
+  309  git checkout -b animals/mysql
+  310  git branch
+  311  git add .
+  312  git status
+  313  git commit -m "mysql-client installed"
+  314  git push -u origin animals/mysql
+  315  wget http://archive.ubuntu.com/ubuntu/pool/main/n/nano/nano_7.2-1_amd64.deb
+  316  sudo dpkg -i nano_7.2-1_amd64.deb
+  317  sudo apt --fix-broken install
+  318  nano --version
+  319  git checkout -b animals/nano
+  320  git add .
+  321  git status
+  322  sudo dpkg -r nano
+  323  nano --version
+  324  history > command_history.txt
