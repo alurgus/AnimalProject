@@ -1,0 +1,13 @@
+org/example/utils/Counter.class
+org/example/Main.class
+org/example/animals/Cats.class
+org/example/database/DatabaseService.class
+org/example/animals/Hamsters.class
+org/example/RegistryApp.class
+org/example/animals/Dogs.class
+org/example/animals/Animal.class
+org/example/animals/AnimalFactory.class
+org/example/TestConnection.class
+org/example/RegistryApp$Config.class
+org/example/animals/Horses.class
+org/example/animals/Donkeys.class
